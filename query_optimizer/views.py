@@ -3,11 +3,7 @@ from django.http import JsonResponse
 import json
 import ast
 from django.views.generic import TemplateView
-from generate_predicate_varies_values import *
-from sqlparser import *
-from generator import Generator
-from query_visualizer_explainer import *
-from custom_errors import *
+
 
 
 class HomeView(TemplateView):

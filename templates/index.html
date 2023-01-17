@@ -1,274 +1,184 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <meta charset="UTF-8">
+<head>
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="description" content="Start your development with Creative Studio landing page.">
+    <meta name="author" content="Devcrud">
+ <title>SQL Optimizer</title>
 
-    <title>SQL Optimizer</title>
+    <link rel="stylesheet" href="static/assets/vendors/themify-icons/css/themify-icons.css">
+	<link rel="stylesheet" href="static/assets/css/creative-studio.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="static/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="static/assets/css/templatemo-onix-digital.css">
-    <link rel="stylesheet" href="static/assets/css/animated.css">
-    <link rel="stylesheet" href="static/assets/css/owl.css">
-
-  </head>
-{% block content %}
-<body>
-
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <img src="static/assets/images/logo.png">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="static/assets/imgs/logo.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
             </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-              <li class="scroll-to-section"><a href="#services">Services</a></li>              
-              <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
-              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="#contact">Contact Us Now</a></div></li> 
-            </ul>        
-            <a class='menu-trigger'>
-                <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+            </button>
 
-  <div class="main-banner" id="top">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="owl-carousel owl-banner">
-                <div class="item header-text">
-                  <h6>Welcome to Onix</h6>
-                  <h2>Optimize <em>your SQL Queries</em> to get the <span>best Results</span>!</h2>
-                  <p>Optimizing your Sql Queries is something very imporatant and we tend to help you achieve that.</p>
-                  <div class="down-buttons">
-                    <div class="main-blue-button-hover">
-                      <a href="#contact">Message Us Now</a>
-                    </div>
-                    <div class="call-button">
-                      <a href="#"><i class="fa fa-phone"></i> 010-020-0340</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="item header-text">
-                  <h6>Query Optimization</h6>
-                  <h2>Get the most of <em>Your </em>DataBase  <span>By Optimizing it</span></h2>
-
-                  <div class="down-buttons">
-                    <div class="main-blue-button-hover">
-                      <a href="#services">Our Services</a>
-                    </div>
-                    <div class="call-button">
-                      <a href="#"><i class="fa fa-phone"></i> 090-080-0760</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="item header-text">
-                  <h6>Video Tutorials</h6>
-                  <h2>Get <em>The Latest Optimization Updates</em> for your <span>DataBase</span></h2>
-                                    <div class="down-buttons">
-                    <div class="main-blue-button-hover">
-                      <a href="#video">Watch Videos</a>
-                    </div>
-                    <div class="call-button">
-                      <a href="#"><i class="fa fa-phone"></i> 050-040-0320</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                   
+                </ul>
             </div>
-          </div>
         </div>
-      </div>
+    </nav>
+    <!-- End Of Page Navigation -->
+
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h6 class="subtitle">welcome to QueryOptimizerPro</h6>
+            <h3 class="title">Maximize Your Database's Performance with the Best Query Optimization Techniques!</h3>
+            <p>Our team of experts are dedicated to helping you optimize your SQL queries for the best results.</p>
+
+            <div class="buttons text-center">
+                <a href="#service" class="btn btn-primary rounded w-lg btn-lg my-1">Start optimizing</a>
+            </div>              
+        </div>      
+    </header>
+    <!-- End Of Page Header -->
+
+    <!-- Box -->
+    <div class="box text-center">
+        <div class="box-item">
+            <i class="ti-vector"></i>
+            <h6 class="box-title">SQL Query Tuning</h6>
+            <p>Fine-tune your SQL queries for better performance</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-notepad"></i>
+            <h6 class="box-title">Index Optimization</h6>
+            <p>Improve query performance by optimizing index usage</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-layers"></i>
+            <h6 class="box-title">Database Consolidation</h6>
+            <p>Combine and streamline multiple databases for improved efficiency</p>
+        </div>
+        <div class="box-item">
+            <i class="ti-location-arrow"></i>
+            <h6 class="box-title">Cloud Optimization</h6>
+            <p>Maximize the benefits of a cloud-based database infrastructurey</p>
+        </div>
     </div>
-  </div>
-<!-- ***** Code Section *****-->
-<div id="header">
-  <h1>Query Optimizer</h1>
-</div>
-<div id="container">
-  <div id="input">
-    <form action="" method="post"> {% csrf_token %}
-      {{ form.as_p }}
-      <textarea id="sql-input" placeholder="Write Your Query Here"></textarea>
+    <!-- End of Box -->
+
+    
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 col-lg-4">
+                    <img src="static/assets/imgs/about.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page" class="w-100 img-thumbnail mb-3">
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <h6 class="section-subtitle mb-0">About <em>Query Optimization</em></h6>
+                    <h6 class="section-title mb-3">Why it's important</h6>
+<p>Query optimization is the process of making a database query run as fast and efficiently as possible. This is important because slow and inefficient queries can lead to poor performance and slow loading times for your applications and websites. By optimizing your queries, you can ensure that your database is working at its best and that your users have a good experience.</p>
+            <p>Our team of experts use the latest techniques and tools to optimize your queries, resulting in faster performance and reduced load times. We also provide ongoing support and can help you identify and fix any issues that may arise in the future.</p>
+            </div>
+        </div>
+    </section>
+   
+    <form>
+        <h2 class="form-headline">Optimize your query</h2>
+        <!-- Form fields go here -->
+        <div class="form-button">
+            <button type="submit">Optimize</button>
+        </div>
     </form>
-  </div>
-  <div id="output">
-    <pre id="sql-output"></pre>
-  </div>
-</div>
-<input type="submit" value="Optimize Now" id="o-button">
-<!-- ***** End Code Section *****-->
-  <div id="services" class="our-services section">
-    <div class="services-right-dec">
-      <img src="static/assets/images/services-right-dec.png" alt="">
-    </div>
-    <div class="container">
-      <div class="services-left-dec">
-        <img src="static/assets/images/services-left-dec.png" alt="">
-      </div>
-      <div class="row">
-        <div class="col-lg-6 offset-lg-3">
-          <div class="section-heading">
-            <h2>We <em>Provide</em> The Best Query Optimization <span>Tools</span></h2>
-            <span>Our Services</span>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="owl-carousel owl-services">
-            <div class="item">
-              <h4>Learn More about our Guidelines</h4>
-              <div class="icon"><img src="static/assets/images/service-icon-01.png" alt=""></div>
-              <p> Educate your self here to get the best results</p>
-            </div>
-            <div class="item">
-              <h4>Develop The Best Strategy for your Database</h4>
-              <div class="icon"><img src="static/assets/images/service-icon-02.png" alt=""></div>
-              <p>Get to know more about the topic in details</p>
-            </div>
-            <div class="item">
-              <h4>Database Developement</h4>
-              <div class="icon"><img src="static/assets/images/service-icon-03.png" alt=""></div>
-              <p>Get to know more about the topic in details</p>
-            </div>
-            <div class="item">
-              <h4>Discover &amp; Explore our Optimization Tips</h4>
-              <div class="icon"><img src="static/assets/images/service-icon-04.png" alt=""></div>
-              <p>Get to know more about the topic in details</p>
-            </div>
-        
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="contact" class="contact-us section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
-          <div class="section-heading">
-            <h2>Feel free to <em>Contact</em> us via <span>Email</span></h2>
-            
-            <div class="info">
-              <span><i class="fa fa-phone"></i> <a href="#">010-020-0340<br>090-080-0760</a></span>
-              <span><i class="fa fa-envelope"></i> <a href="#">info@company.com<br>mail@company.com</a></span>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-5 align-self-center">
-          <form id="contact" action="" method="get">
+    
+    <!-- Service Section -->
+    <section id="service">
+        <div class="container">
+            <h6 class="section-subtitle text-center">Makes Happen</h6>
+            <h5 class="section-title text-center mb-6">Our Service</h5> 
             <div class="row">
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <input type="text" name="website" id="website" placeholder="Your Comapny Website " required="">
-                </fieldset>
-              </div>
-              <div class="col-lg-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="main-button">Go!</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="contact-dec">
-      <img src="static/assets/images/contact-dec.png" alt="">
-    </div>
-    <div class="contact-left-dec">
-      <img src="static/assets/images/contact-left-dec.png" alt="">
-    </div>
-  </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-filter text-primary"></i></h2>
+                            <h6 class="card-title">Data Model Optimization</h6>
+                            <p>Optimize your data model for better query performance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-paint-roller text-primary"></i></h2>
+                            <h6 class="card-title">Query Performance Monitoring</h6>
+                            <p>Monitor and track query performance over time</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-ruler-pencil text-primary"></i></h2>
+                            <h6 class="card-title">Database Performance Tuning</h6>
+                            <p>Tune the overall performance of your database</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h2 class="mb-4"><i class="ti-layers text-primary"></i></h2>
+                            <h6 class="card-title">SQL Code Review</h6>
+                            <p>Expert review of your SQL code for potential performance improvements</p>
+                        </div>
+                    </div>
+                </div>
+               
 
-  <div class="footer-dec">
-    <img src="static/assets/images/footer-dec.png" alt="">
-  </div>
+            </div>  
+        </div><script>
+            // Acc
+              $(document).on("click", ".naccs .menu div", function() {
+                var numberIndex = $(this).index();
+          
+                if (!$(this).is("active")) {
+                    $(".naccs .menu div").removeClass("active");
+                    $(".naccs ul li").removeClass("active");
+          
+                    $(this).addClass("active");
+                    $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+          
+                    var listItemHeight = $(".naccs ul")
+                      .find("li:eq(" + numberIndex + ")")
+                      .innerHeight();
+                    $(".naccs ul").height(listItemHeight + "px");
+                  }
+              });
+            </script>
+        
+    </section>
+    <!-- End of Service Section -->
 
-
-  <!-- Scripts -->
-  <script src="static/vendor/jquery/jquery.min.js"></script>
-  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="static/assets/js/owl-carousel.js"></script>
-  <script src="static/assets/js/animation.js"></script>
-  <script src="static/assets/js/imagesloaded.js"></script>
-  <script src="static/assets/js/custom.js"></script>
-
-  <script>
-  // Acc
-    $(document).on("click", ".naccs .menu div", function() {
-      var numberIndex = $(this).index();
-
-      if (!$(this).is("active")) {
-          $(".naccs .menu div").removeClass("active");
-          $(".naccs ul li").removeClass("active");
-
-          $(this).addClass("active");
-          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
-
-          var listItemHeight = $(".naccs ul")
-            .find("li:eq(" + numberIndex + ")")
-            .innerHeight();
-          $(".naccs ul").height(listItemHeight + "px");
-        }
-    });
-  </script>
-</body>
-{% endblock content %}
-</html>
+  
